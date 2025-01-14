@@ -39,8 +39,8 @@
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://infiniti.fun/community"
+      "icon": "discord",
+      "url": "https://discord.gg/5GxW92XXbx"
     },
     {
       "name": "Blog",
@@ -85,7 +85,7 @@
   ],
   "footerSocials": {
     "x": "https://x.com/infiniti",
-    "github": "https://github.com/infiniti",
+    "github": "https://github.com/infiniticorporation",
     "linkedin": "https://linkedin.com/company/infiniticorp"
   }
 }
