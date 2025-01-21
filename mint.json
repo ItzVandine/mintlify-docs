@@ -1,91 +1,98 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Infiniti",
+  "name": "Fractal Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/favicon.png",
   "colors": {
-    "primary": "#19B1F7",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+    "primary": "#6366f1",
+    "light": "#6366f1",
+    "dark": "#6366f1",
+    "background": {
+      "dark": "#060610",
+      "light": "#f7f7f7"
     }
+  },
+  "topbarCtaButton": {
+    "name": "Join Fractal",
+    "url": "https://frac.gg/auth"
+  },
+    "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": false,
+    "raiseIssue": false
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:support@infiniti.fun"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://client.infiniti.fun"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Contact",
+      "url": "https://frac.gg/contact"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://docs.infiniti.fun"
-    },
-    {
-      "name": "Community",
+      "name": "Discord",
       "icon": "discord",
-      "url": "https://discord.gg/5GxW92XXbx"
+      "url": "https://discord.gg/frac"
     },
     {
       "name": "Minecraft Guides",
       "icon": "cubes",
-      "url": "https://docs.infiniti.fun/games/minecraft/introduction"
+      "url": "games/minecraft"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Welcome",
+      "pages": ["introduction","quickstart"]
+    },
+    {
+      "group": "Panel",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "panel/overview",
+        "panel/importing-files",
+        "panel/sub-users"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Minecraft Guides",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "games/minecraft/introduction",
+        {
+          "group": "Plugins",
+          "pages": [
+            "games/minecraft/plugins/chunky",
+            "games/minecraft/plugins/dynmap",
+            "games/minecraft/plugins/geyser",
+            "games/minecraft/plugins/votifier"
+          ]
+        },
+        {
+          "group": "Common Errors",
+          "pages": [
+            "games/minecraft/common-errors/connection-timed-out",
+            "games/minecraft/common-errors/exception-server-tick-loop",
+            "games/minecraft/common-errors/failed-to-check-session-lock",
+            "games/minecraft/common-errors/kicked-for-flying"
+          ]
+        },
+        "games/minecraft/updating-jars",
+        "games/minecraft/server-icon",
+        "games/minecraft/installing-modpacks",
+        "games/minecraft/installing-mods",
+        "games/minecraft/changing-versions",
+        "games/minecraft/join-server",
+        "games/minecraft/setting-up-rcon",
+        "games/minecraft/convert-world",
+        "games/minecraft/convert-bedrock-to-java",
+        "games/minecraft/upload-world",
+        "games/minecraft/resource-packs",
+        "games/minecraft/aikars-flags"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/infiniti",
-    "github": "https://github.com/infiniticorporation",
-    "linkedin": "https://linkedin.com/company/infiniticorp"
+    "website": "https://frac.gg/",
+    "discord": "https://discord.gg/frac"
   }
 }
