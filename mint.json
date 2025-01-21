@@ -1,5 +1,5 @@
 {
-  "name": "Fractal Docs",
+  "name": "Infinit Docs",
   "logo": {
     "light": "/logo/light.png",
     "dark": "/logo/dark.png"
@@ -15,8 +15,8 @@
     }
   },
   "topbarCtaButton": {
-    "name": "Join Fractal",
-    "url": "https://frac.gg/auth"
+    "name": "Join infinitital",
+    "url": "https://dash.infiniti.fun/auth"
   },
     "feedback": {
     "thumbsRating": true,
@@ -26,14 +26,14 @@
   "topbarLinks": [
     {
       "name": "Contact",
-      "url": "https://frac.gg/contact"
+      "url": "https://dash.infiniti.fun/contact"
     }
   ],
   "anchors": [
     {
       "name": "Discord",
       "icon": "discord",
-      "url": "https://discord.gg/frac"
+      "url": "https://discord.gg/infiniti"
     },
     {
       "name": "Minecraft Guides",
@@ -92,7 +92,7 @@
     }
   ],
   "footerSocials": {
-    "website": "https://frac.gg/",
-    "discord": "https://discord.gg/frac"
+    "website": "https://dash.infiniti.fun/",
+    "discord": "https://discord.gg/infiniti"
   }
 }
