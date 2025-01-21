@@ -1,8 +1,8 @@
 {
   "name": "Infiniti Docs",
   "logo": {
-    "light": "/logo/light.png",
-    "dark": "/logo/dark.png"
+    "light": "/logo/infinitidark.png",
+    "dark": "/logo/infinitidark.png"
   },
   "favicon": "/logo/infinitylogoblack.png",
   "colors": {
