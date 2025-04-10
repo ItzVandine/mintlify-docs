@@ -16,7 +16,7 @@
   },
   "topbarCtaButton": {
     "name": "Join Infiniti",
-    "url": "https://dash.infiniti.fun/auth"
+    "url": "https://dash.infiniticloud.in/auth"
   },
     "feedback": {
     "thumbsRating": true,
@@ -26,7 +26,7 @@
   "topbarLinks": [
     {
       "name": "Contact",
-      "url": "https://dash.infiniti.fun/contact"
+      "url": "https://dash.infiniticloud.in/contact"
     }
   ],
   "anchors": [
@@ -92,7 +92,7 @@
     }
   ],
   "footerSocials": {
-    "website": "https://dash.infiniti.fun/",
+    "website": "https://dash.infiniticloud.in/",
     "discord": "https://discord.gg/infiniti"
   }
 }
