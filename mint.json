@@ -26,14 +26,14 @@
   "topbarLinks": [
     {
       "name": "Contact",
-      "url": "https://dash.infiniticloud.in/contact"
+      "url": "https://infiniticloud.in/contact"
     }
   ],
   "anchors": [
     {
       "name": "Discord",
       "icon": "discord",
-      "url": "https://discord.gg/infiniti"
+      "url": "https://discord.gg/uvGTNXHp4J"
     },
     {
       "name": "Minecraft Guides",
@@ -92,7 +92,7 @@
     }
   ],
   "footerSocials": {
-    "website": "https://dash.infiniticloud.in/",
-    "discord": "https://discord.gg/infiniti"
+    "website": "https://infiniticloud.in/",
+    "discord": "https://discord.gg/uvGTNXHp4J"
   }
 }
