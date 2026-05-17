@@ -1,9 +1,11 @@
 {
   "name": "Infiniti Docs",
+
   "logo": {
     "light": "/logo/infinitidark.png",
     "dark": "/logo/infinitidark.png"
   },
+
   "favicon": "/logo/infinitylogoblack.png",
 
   "colors": {
@@ -11,8 +13,8 @@
     "light": "#6366f1",
     "dark": "#6366f1",
     "background": {
-      "dark": "#060610",
-      "light": "#f7f7f7"
+      "light": "#f7f7f7",
+      "dark": "#060610"
     }
   },
 
@@ -55,6 +57,7 @@
         "quickstart"
       ]
     },
+
     {
       "group": "Panel",
       "pages": [
@@ -63,10 +66,12 @@
         "panel/sub-users"
       ]
     },
+
     {
       "group": "Minecraft Guides",
       "pages": [
         "games/minecraft/introduction",
+
         {
           "group": "Plugins",
           "pages": [
@@ -76,6 +81,7 @@
             "games/minecraft/plugins/votifier"
           ]
         },
+
         {
           "group": "Common Errors",
           "pages": [
@@ -85,6 +91,7 @@
             "games/minecraft/common-errors/kicked-for-flying"
           ]
         },
+
         "games/minecraft/updating-jars",
         "games/minecraft/server-icon",
         "games/minecraft/installing-modpacks",
