@@ -5,6 +5,7 @@
     "dark": "/logo/infinitidark.png"
   },
   "favicon": "/logo/infinitylogoblack.png",
+
   "colors": {
     "primary": "#6366f1",
     "light": "#6366f1",
@@ -14,21 +15,29 @@
       "light": "#f7f7f7"
     }
   },
+
+  "background": {
+    "decoration": "gradient"
+  },
+
   "topbarCtaButton": {
     "name": "Join Infiniti",
     "url": "https://dash.infiniticloud.in/auth"
   },
-    "feedback": {
+
+  "feedback": {
     "thumbsRating": true,
     "suggestEdit": false,
     "raiseIssue": false
   },
+
   "topbarLinks": [
     {
       "name": "Contact",
       "url": "https://infiniticloud.in/contact"
     }
   ],
+
   "anchors": [
     {
       "name": "Discord",
@@ -41,11 +50,16 @@
       "url": "games/minecraft"
     }
   ],
+
   "navigation": [
     {
       "group": "Welcome",
-      "pages": ["introduction","quickstart"]
+      "pages": [
+        "introduction",
+        "quickstart"
+      ]
     },
+
     {
       "group": "Panel",
       "pages": [
@@ -54,10 +68,12 @@
         "panel/sub-users"
       ]
     },
+
     {
       "group": "Minecraft Guides",
       "pages": [
         "games/minecraft/introduction",
+
         {
           "group": "Plugins",
           "pages": [
@@ -67,6 +83,7 @@
             "games/minecraft/plugins/votifier"
           ]
         },
+
         {
           "group": "Common Errors",
           "pages": [
@@ -76,6 +93,7 @@
             "games/minecraft/common-errors/kicked-for-flying"
           ]
         },
+
         "games/minecraft/updating-jars",
         "games/minecraft/server-icon",
         "games/minecraft/installing-modpacks",
@@ -91,6 +109,7 @@
       ]
     }
   ],
+
   "footerSocials": {
     "website": "https://infiniticloud.in/",
     "discord": "https://discord.gg/uvGTNXHp4J"
