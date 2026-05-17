@@ -17,6 +17,7 @@
   },
 
   "background": {
+    "image": "/images/background.png",
     "decoration": "gradient"
   },
 
@@ -59,7 +60,6 @@
         "quickstart"
       ]
     },
-
     {
       "group": "Panel",
       "pages": [
@@ -68,12 +68,10 @@
         "panel/sub-users"
       ]
     },
-
     {
       "group": "Minecraft Guides",
       "pages": [
         "games/minecraft/introduction",
-
         {
           "group": "Plugins",
           "pages": [
@@ -83,7 +81,6 @@
             "games/minecraft/plugins/votifier"
           ]
         },
-
         {
           "group": "Common Errors",
           "pages": [
@@ -93,7 +90,6 @@
             "games/minecraft/common-errors/kicked-for-flying"
           ]
         },
-
         "games/minecraft/updating-jars",
         "games/minecraft/server-icon",
         "games/minecraft/installing-modpacks",
